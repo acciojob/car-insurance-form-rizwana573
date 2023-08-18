@@ -11,6 +11,62 @@
     <script type="text/javascript" src="./script.js">
 </script>
 
+	<form id="insuranceForm" action="#" method="POST">
+	<div class="inputField">
+	<label for="name">Name</label>	
+	<input id="name" type="text" required></input>
+	</div>
+
+	<div class="inputField">
+	<label for="email">Email</label>	
+	<input id="email" type="email" required></input>
+	</div>
+
+	<div class="inputField">
+	<label for="">Gender</label>	
+	<input id="m1" type="radio" name="gender" value ="Male" required></input>
+	<label for="m1">Male</label>	
+		
+	<input id="fem" type="radio" name="gender" value ="Female"></input>
+	<label for="fem">Female</label>	
+
+<!-- 	<input id="oth" type="radio" name="gender" value ="Others"></input>
+	<label for="oth">Others</label>	 -->
+	</div>
+
+	<div class="inputField">
+		<label for="cars">Car Brands</label>
+		<select id="cars">
+		    <option value="BMW">BMW</option>
+			<option value="Audi">Audi</option>
+			<option value="Mercedez">Mercedez</option>
+		</select>
+	</div>
+
+	<div class="inputField">
+	<label for="vcarage">Car Age</label>	
+	<input id="carage" type="number" required></input>
+	</div>	
+
+	<div class="inputField">
+	<label for="dop">Date of Purchase</label>	
+	<input id="dop" type="date" required></input>
+	</div>	
+
+	<div class="inputField">
+	<label for="password">Password</label>	
+	<input id="password" type="password" required></input>
+	</div>		
+
+<!-- 	<div class="inputField">
+	<label for="portfolio">Portfolio URL</label>	
+	<input id="portfolio" type="url"></input>
+	</div>		 -->
+
+	<div class="submitBtn">
+	<button type="submit" value="submit">Submit</button>
+	</div>
+</form>
 </body>
 
 </html>
